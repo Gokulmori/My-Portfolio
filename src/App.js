@@ -1,12 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "../src/shared/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/about";
 import Experience from "./pages/experience";
 import Education from "./pages/education";
 import Skills from "./pages/skills";
 import Awards from "./pages/awards";
+import Navbar from "./shared/navbar";
 
 function App() {
   return (
