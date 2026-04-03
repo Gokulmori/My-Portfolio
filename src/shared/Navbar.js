@@ -2,14 +2,6 @@ import profileImg from "../assets/img/profile.jpg";
 import { NavLink } from "react-router-dom";
 import navItems from "./nav-items";
 
-// const navItems = [
-//   { path: "/", label: "About" },
-//   { path: "/experience", label: "Experience" },
-//   { path: "/education", label: "Education" },
-//   { path: "/skills", label: "Skills" },
-//   { path: "/awards", label: "Awards" },
-// ];
-
 function Navbar() {
   const handleScroll = (id) => {
     const section = document.getElementById(id);
